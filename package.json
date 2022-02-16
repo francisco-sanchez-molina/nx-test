@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@nrwl/nx-cloud": "^13.1.4"
+  }
+}
