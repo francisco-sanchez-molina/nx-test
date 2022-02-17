@@ -51,7 +51,7 @@ jobs:
       - run: npx nx affected --target=build --parallel --max-parallel=3
       - run: npx nx affected --target=test --parallel --max-parallel=2
       - run: npx nx-cloud stop-all-agents
-      - run: ls
+      - run: find dist
   agents:
     runs-on: ubuntu-latest
     name: Agent 1
